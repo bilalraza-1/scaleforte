@@ -1,85 +1,24 @@
-<footer>
-	<div class="contact-wrapper">
-	  <div class="contact-wrapper-container">
-		<div class="contact-wrapper-tile">
-			<%= image_tag asset_path( 'footer-icon01.png' ) %>
-			<h3>
-				address infos
-			</h3>
-			<p>
-				Boryssa Himry 124 B Block Pozniaky IvanaFrankovsk - Ukraine
-			</p>
-		</div>
-		<div class="contact-wrapper-tile">
-			<%= image_tag asset_path( 'footer-icon02.png' ) %>
-			<h3>
-				working hours
-			</h3>
-			<p>
-				Monday to Friday 09:00 to 18:30 and Saturday we work until 15:30
-			</p>
-		</div>
-		<div class="contact-wrapper-tile">
-			<%= image_tag asset_path( 'footer-icon03.png' ) %>
-			<h3>
-				support center
-			</h3>
-			<p>UonCorp is your trusted call service that you can 
-			<a href="#">call</a>
-			 or 
-			<a href="#">e-mail</a> 
-			us anytime</p>
-		</div>
-	  </div>
-	</div>
-
-	<div class="footer-row">
-		<div class="footer-intro">
-			<%= link_to(image_tag(asset_path( 'scaleforte-logo.png' )), root_path) %>
-			<p>
-				Abundant rainfall is created by the nearby ocean, with as much as 122 inches of precipitation each year. Also, as the cool moist breeze.
-			</p>
-		</div>
-		<div class="footer-nav">
-			<div class="footer-nav-list">
-				<ul class="footer-menu">
-		          <li><a href="#">Home</a></li>
-		          <li><a href="#">Corpration</a></li>
-		          <li><a href="#">Showcases</a></li>
-		          <li><a href="#">News</a></li>
-		          <li><a href="#">Contact</a></li>
-		        </ul>
+<footer class="footer">
+	<div class="footer-container">
+		<div class="footer-container-column">
+			<div class="logo">
+			<%= link_to(image_tag(asset_path( 'scaleforte-logo-white.png' )), root_path) %>
 			</div>
-			<div class="footer-nav-list">
-				<ul class="footer-menu">
-		          <li><a href="#">Business</a></li>
-		          <li><a href="#">Consultation</a></li>
-		          <li><a href="#">Career Training</a></li>
-		          <li><a href="#">Management</a></li>
-		          <li><a href="#">Startups</a></li>
-		        </ul>
-			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.
+			</p>
 		</div>
-		<div class="footer-phone">
-			<div class="contact-box">
-            <h5>CALL US</h5>
-            <h3>+92 (33) 433 676 11</h3>
-            <p>E-mail <a href="#">info@uon-corp.com</a></p>
-            <ul class="social-links">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-            </ul>
-          </div>
+		<div class="footer-container-column">
+			<h4>Address</h4>
+			<p>
+				Amphitheatre Parkway, <br />Mountain View, California, USA <br />94043
+			</p>
 		</div>
-	</div>
-
-	<div class="sub-footer">
-		<div class="sub-footer-container">
-			<span class="copyright">© 2018 Scalforte - Business &amp; Financial Solutions</span>
-			<span class="creation">Site created by <%= link_to "Scaleforte", root_path %></span>
+		<div class="footer-container-column">
+			<h4>Contact</h4>
+		</div>
+		<div class="footer-container-column">
+			<h4>Socials</h4>
 		</div>
 	</div>
 </footer>
