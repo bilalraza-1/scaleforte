@@ -1,24 +1,32 @@
 <footer class="footer">
-	<div class="footer-container">
-		<div class="footer-container-column">
-			<div class="logo">
-			<%= link_to(image_tag(asset_path( 'scaleforte-logo-white.png' )), root_path) %>
+	<div class="footer-main-container">
+		<div class="footer-container">
+			<div class="footer-container-column">
+				<div class="logo">
+				<%= link_to(image_tag(asset_path( 'scaleforte-logo-white.png' )), root_path) %>
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.
+				</p>
 			</div>
+			<div class="footer-container-column">
+				<h4>Address</h4>
+				<p>
+					Amphitheatre Parkway, <br />Mountain View, California, USA <br />94043
+				</p>
+			</div>
+			<div class="footer-container-column">
+				<h4>Contact</h4>
+			</div>
+			<div class="footer-container-column">
+				<h4>Socials</h4>
+			</div>
+		</div>
+		<div class="footer-ribbon">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.
+				Scaleforte Corporate & Business Solutions by 
+				<%= link_to "Scaleforte", root_path%>. 
 			</p>
-		</div>
-		<div class="footer-container-column">
-			<h4>Address</h4>
-			<p>
-				Amphitheatre Parkway, <br />Mountain View, California, USA <br />94043
-			</p>
-		</div>
-		<div class="footer-container-column">
-			<h4>Contact</h4>
-		</div>
-		<div class="footer-container-column">
-			<h4>Socials</h4>
 		</div>
 	</div>
 </footer>
