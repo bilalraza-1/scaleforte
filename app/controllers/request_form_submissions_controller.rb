@@ -5,7 +5,7 @@ class RequestFormSubmissionsController < ApplicationController
   def create
     @request = RequestFormSubmission.new(request_form_submission_params)
     if @request.save
-      redirect_to root_path
+      redirect_to contact_path, notice: "Your query has been received. Our representative will contact you shortly."
     end
   end
 
