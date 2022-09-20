@@ -330,8 +330,7 @@ a.button-primary:hover {
 
 .about-section-container {
     width: 100%;
-    height: 1000px;
-    background: lightpink;
+    height: 900px;
     padding: 100px 0;
 }
 
@@ -342,44 +341,74 @@ a.button-primary:hover {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    background: lightblue;
 }
 
 .about-section-slides {
     flex: 1 1 0%;
     height: 100%;
-    background: lightseagreen;
 }
 
 .about-section-content {
     flex: 1 1 0%;
     height: 100%;
-    background: lightsalmon;
+    display: flex;
+    justify-content: center;
+}
+
+.about-section-content-container {
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
+.about-section-content-container ul {
+    padding: 0;
+    margin-top: 30px;
+}
 
+.about-section-content-container li {
+    list-style: none;
+}
 
+.about-section-content-container li i {
+    display: inline-block;
+    margin-right: 10px;
+}
 
+.about-section-content h2 {
+    margin-bottom: 20px;
+}
 
+.about-section-slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
 
+.about-section-image {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background: url('who-are-we.jpg');
+}
 
+.about-section-floating-box {
+    background: #F7F7F7;
+    position: absolute;
+    right: 0;
+    padding: 40px;
+    padding-bottom: 20px;
+    width: 45%;
+    bottom: 0;
+}
 
-
-
-
-
-
-
-
-/*Might need to delete this*/
-.new {
-    font-size: 80px;
-    color: transparent!important;
-    -webkit-text-stroke-color: #000000;
-    -webkit-text-stroke-width: 1px;
-    line-height: 90px;
-    font-weight: 700;
+.about-section-floating-box i {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #075493;
 }
 
 .get-a-quote {
@@ -491,7 +520,7 @@ h6.sub-heading {
     flex: 5 1 0%;
 }
 
-.section-text p, .workflow-section p, .text-box p {
+.section-text p, .workflow-section p, .text-box p, .about-section p {
     font-family: "Catamaran", Sans-serif;;
     font-size: 17px;
     font-weight: 400;
@@ -499,7 +528,7 @@ h6.sub-heading {
     letter-spacing: 0.5px;
 }
 
-.section-text-heading h2 {
+.section-text-heading h2, .about-section-content h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -514,7 +543,7 @@ h6.sub-heading {
     padding: 20px 0;
 }
 
-.workflow-section-container, {
+.workflow-section-container {
     width: 100%;
     background: #F7F7F7;
     padding: 100px 0;
@@ -554,7 +583,7 @@ h6.sub-heading {
     flex-direction: column;
 }
 
-.workflow-section-tile h4, .black-section-image-content h4 {
+.workflow-section-tile h4, .black-section-image-content h4, .about-section h4 {
     margin-bottom: 16px;
     font-size: 24px;
     font-weight: 700;
