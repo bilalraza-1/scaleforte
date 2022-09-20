@@ -26,6 +26,15 @@
   </head>
   <body>
     <%= render 'layouts/partials/nav_bar' %>
+    <% if flash[:notice].present? %>
+      <div class="flash flash-notice" id="flash">
+        <p><%= flash[:notice] %></p>
+      </div>
+    <% elsif flash[:error].present? %>
+      <div class='flash flash-error'>
+        <p><%= flash[:error] %></p>
+      </div>
+    <% end %>
     <%= yield %>
     <%= render 'layouts/partials/footer' %>
 

@@ -1,10 +1,9 @@
 class PagesController < ApplicationController
     def index
-        # @request = RequestFormSubmission.new
-        # @countries = countries
     end
 
     def contact
+        # @request = RequestFormSubmission.new
     end
 
     private 
